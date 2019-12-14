@@ -1,0 +1,132 @@
+{
+    "type": "Data collection",
+    "properties": {
+        "name": "vehicle-data"
+    },
+    "vehicleList": [
+        {
+            "name": "Car",
+            "count": 46,
+            "Id": "1",
+            "badge": "badge badge-pill badge-success"
+        },
+        {
+            "name": "Truck",
+            "count": 6,
+            "Id": "2",
+            "badge": "badge badge-pill badge-danger"
+        },
+        {
+            "name": "Bikes",
+            "count": 53,
+            "Id": "3",
+            "badge": "badge badge-pill badge-warning"
+        },
+        {
+            "name": "Bus",
+            "count": 12,
+            "Id": "4",
+            "badge": "badge badge-pill badge-info"
+        }
+    ],
+    "features": [
+        {
+            "vehicle-type": "Car",
+            "properties": {
+                "Model": "BMW",
+                "Color": "Red"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [
+                    10.010366,
+                    77.476814
+                ]
+            }
+        },
+        {
+            "vehicle-type": "Car",
+            "properties": {
+                "Model": "Audi",
+                "Color": "Grey"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [
+                    10.014500,
+                    77.352364
+                ]
+            }
+        },
+        {
+            "vehicle-type": "Car",
+            "properties": {
+                "Model": "Benz",
+                "Color": "Blue"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [
+                    12.971599,
+                    77.594566
+                ]
+            }
+        },
+        {
+            "vehicle-type": "Bikes",
+            "properties": {
+                "Model": "Honda",
+                "Color": "White"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [
+                    11.016844,
+                    76.955833
+                ]
+            }
+        },
+        {
+            "vehicle-type": "Car",
+            "properties": {
+                "Model": "Swift",
+                "Color": "Black"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [
+                    9.836950,
+                    78.093260
+                ]
+            }
+        },
+        {
+            "vehicle-type": "BUS",
+            "properties": {
+                "Model": "Scania",
+                "Color": "Green"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [
+                    13.082680,
+                    80.270721
+                ]
+            }
+        },
+        {
+            "vehicle-type": "Truck",
+            "properties": {
+                "Model": "Volvo",
+                "Color": "Brown"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [
+                    11.652120,
+                    78.157982
+                ]
+            }
+        }
+    ]
+}
