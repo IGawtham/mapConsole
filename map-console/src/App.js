@@ -45,7 +45,7 @@ function App(props) {
     <div style={{ width: "100vw", height: '100vh' }}>
 
       <WrappedMap
-        googleMapURL={"https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyAX2fNszPix7rY5mWutdyjMEr183XIgyv8"}
+        googleMapURL={"https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=YOUR_API_KEY"}
         loadingElement={<div style={{ height: '100%' }} />}
         containerElement={<div style={{ height: '100%' }} />}
         mapElement={<div style={{ height: '100%' }} />}
